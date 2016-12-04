@@ -10,7 +10,9 @@ comments: true
 ---
 
 # 1. Init-script: celeryd
+
 ## 1.1. celeryd
+
 ### What to do?
 
 1. Create `/etc/init.d/celeryd` with the content from [celery repo](https://github.com/celery/celery/blob/master/extra/generic-init.d/celeryd)
@@ -33,6 +35,7 @@ Run following commands from the terminal:
 
 
 ## 1.2. Configuration
+
 ### What to do?
 
 1. Create `/etc/default/celeryd`
@@ -95,7 +98,9 @@ Don't forget to stop the worker:
     sudo /etc/init.d/celeryd stop 
 
 # 2. Init-script: celerybeat
+
 ## 2.1. celerybeat
+
 ### What to do?
 
 1. Create `/etc/init.d/celerybeat` with the content from [celery repo](https://github.com/celery/celery/blob/master/extra/generic-init.d/celerybeat)
@@ -118,6 +123,7 @@ Run following commands from the terminal:
 
 
 ## 2.2. Configuration
+
 ### What to do?
 
 Configurate either `/etc/default/celerybeat` or stick with `/etc/default/celeryd`
