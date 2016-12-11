@@ -36,7 +36,7 @@ Open you SSH config and add a remote forwarding line under the right host
 
 # 5. Make subl system wide(Optional)
 
-If you will user `subl` from different users on the remote machine you can move it to `~/bin` with `sudo mv /usr/local/bin/subl ~bin/`
+If you will use `subl` from different users on the remote machine you can move it to `~/bin` with `sudo mv /usr/local/bin/subl ~bin/`
 
 # 6. Test it
 
