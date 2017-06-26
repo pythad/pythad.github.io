@@ -6,7 +6,7 @@
 title: Pythad Blog
 email: ovd4mail@gmail.com
 description: Blog about Python, Django and web-development
-url: # the base hostname & protocol for your site
+url: https://pythad.github.io
 
 
 #
@@ -35,7 +35,7 @@ kramdown:
 owner:
   name: Vlad Ovchynnykov
   avatar: avatar.jpg
-  job: "Python&Django developer"
+  job: "Python developer"
   bio: "Blog about Python, Django and web-development"
   email: ovd4mail@gmail.com
   disqus-shortname: pythadgithubio
